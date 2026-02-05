@@ -17,6 +17,7 @@ COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copy static files
 COPY index.html /usr/share/nginx/html/
+COPY privacy.html /usr/share/nginx/html/
 COPY styles.css /usr/share/nginx/html/
 
 # Copy assets if they exist (favicon, og-image, etc.)
